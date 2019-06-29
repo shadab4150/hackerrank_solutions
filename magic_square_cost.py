@@ -1,3 +1,4 @@
+https://www.hackerrank.com/challenges/magic-square-forming/problem
 n=3
 arr=[]
 for i in range(3):
