@@ -17,9 +17,8 @@ for i in range(1,k+1):
             l.append(c)
         elif int(arr[j])==0:
             l.append(1)
-zas=set(l)
-man=sorted(zas)
-shadab=dict(zip(sorted(arr),man))
+
+shadab=dict(zip(sorted(arr),sorted(set(l))))
 
 for i in range(len(arr)):
     if int(arr[i]) in shadab:
