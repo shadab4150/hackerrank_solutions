@@ -14,7 +14,7 @@ order=[]
 for i in arr:
     if i in c.keys():
         if i in new:
-            dat=242424
+            dat="Do nothig"
         else:
             new.append(i)
             order.append(c[i])
