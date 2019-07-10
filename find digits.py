@@ -48,10 +48,11 @@ for i in range(n):
     count=0
     for j in range(len(m)):
         try:
-            int(arr[i])%int(m[j])==0
-            count+=1
-        except ZeroDivisionError:
-            count=count
+            if int(arr[i])%int(m[j])==0:
+                count+=1
+        except ZeroDivisionError as e:
+            t=e
+            
     print(count)        
  
 
