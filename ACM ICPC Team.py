@@ -1,5 +1,15 @@
+"""
 https://www.hackerrank.com/challenges/acm-icpc-team/problem
 
+"""
+"""
+Short Problem Definition:
+You are given a list of N people who are attending ACM-ICPC World Finals. 
+Each of them are either well versed in a topic or they are not. 
+Find out the maximum number of topics a 2-person team can know. 
+And also find out how many teams can know that maximum number of topics.
+
+"""
 
 # TIme complexity O(n^3+n)
 
