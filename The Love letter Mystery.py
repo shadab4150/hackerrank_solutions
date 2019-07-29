@@ -22,7 +22,7 @@ theLoveLetterMystery() function should have the following parameter(s):
 s: a string
 t= a intezer denoting no. of test cases.
 """
-# python 3 Time Complexity O(len(s)*t)
+# python 3 Time Complexity O(m*n)
 
 for i in range (int(input())): 
     string=input() 
