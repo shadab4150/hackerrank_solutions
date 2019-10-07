@@ -1,0 +1,21 @@
+# https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+
+# Time complexity O(n*m)   (where m < n)
+
+def minBribes(arr):
+    moves=0
+    arr=[p-1 for p in arr]
+    for i,p in enumerate(arr):
+        if p-i>2:
+            print('Too chaotic')
+            return
+        for j in range(max(p-1,0),i):
+            if arr[j]>p:
+                moves+=1
+    print(moves)
+    return 
+
+for i in range(int(input())):
+    n=int(input())
+    arr=list(map(int,input().split()))
+    minBribes(arr)
