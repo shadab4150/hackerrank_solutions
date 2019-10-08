@@ -1,2 +1,2 @@
 # hackerrank_solutions
-These are the problems to the solutions that I did on Hacker rank.
+These are the problems to the solutions that I solved on Hacker rank website.
